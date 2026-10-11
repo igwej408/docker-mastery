@@ -19,8 +19,8 @@ A 30-day, 30-minutes-a-day journey from Docker basics to a production-style, CI-
 ## Progress
 | Day | Topic | Done |
 |---|---|---|
-| 1 | Containers vs VMs, install Docker | [ ] |
-| 2 | Container lifecycle | [ ] |
+| 1 | Containers vs VMs, install Docker | [ #] |
+| 2 | Container lifecycle | [ #] |
 | 3 | Images, tags, registries | [ ] |
 | 4 | Ports and environment variables | [ ] |
 | 5 | Cleanup and system hygiene | [ ] |

@@ -22,4 +22,21 @@ docker system df
 docker system prune
 ```
 
+```
+## Lifecycle
+```bash
+docker stop web / docker start web / docker restart web
+docker ps -a                        # include stopped containers
+docker logs -f web                  # follow logs
+docker logs --tail 5 web            # last 5 lines
+docker exec -it web bash            # shell inside container
+docker exec web <command>           # run one command
+docker inspect web                  # full details (JSON)
+docker inspect -f '{{.State.Status}}' web
+docker port web                     # show port mappings
+docker stats --no-stream            # CPU/memory snapshot
+docker rename web newname
+docker rm -f web                    # force remove
+```
+
 _Add to this every day._
